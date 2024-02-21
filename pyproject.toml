@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "practical101"
+version = "0.1.0"
+description = ""
+authors = ["Huy Anh Thu Nguyen <huyanhthu.nguyen@uqconnect.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+freeport = "^0.1.15"
+gevent = "^24.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
